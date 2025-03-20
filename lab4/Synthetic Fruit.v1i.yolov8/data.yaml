@@ -1,0 +1,13 @@
+train: C:\Users\user\OneDrive\Desktop\computer vision\computer-vision\lab4\Synthetic Fruit.v1i.yolov8\train\images
+val: C:\Users\user\OneDrive\Desktop\computer vision\computer-vision\lab4\Synthetic Fruit.v1i.yolov8\valid\images
+test: C:\Users\user\OneDrive\Desktop\computer vision\computer-vision\lab4\Synthetic Fruit.v1i.yolov8\test\images
+
+nc: 63
+names: ['Apple', 'Apricot', 'Avocado', 'Banana', 'Beetroot', 'Blueberry', 'Cactus', 'Cantaloupe', 'Carambula', 'Cauliflower', 'Cherry', 'Chestnut', 'Clementine', 'Cocos', 'Dates', 'Eggplant', 'Ginger', 'Granadilla', 'Grape', 'Grapefruit', 'Guava', 'Hazelnut', 'Huckleberry', 'Kaki', 'Kiwi', 'Kohlrabi', 'Kumquats', 'Lemon', 'Limes', 'Lychee', 'Mandarine', 'Mango', 'Mangostan', 'Maracuja', 'Melon', 'Mulberry', 'Nectarine', 'Nut', 'Onion', 'Orange', 'Papaya', 'Passion', 'Peach', 'Pear', 'Pepino', 'Pepper', 'Physalis', 'Pineapple', 'Pitahaya', 'Plum', 'Pomegranate', 'Pomelo', 'Potato', 'Quince', 'Rambutan', 'Raspberry', 'Redcurrant', 'Salak', 'Strawberry', 'Tamarillo', 'Tangelo', 'Tomato', 'Walnut']
+
+roboflow:
+  workspace: cvfruicts
+  project: synthetic-fruit-oqzxz
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/cvfruicts/synthetic-fruit-oqzxz/dataset/1
